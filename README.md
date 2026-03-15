@@ -1,6 +1,6 @@
 # 🧠 Advanced Data Analytics
 
-This project delivers a full-stack **data analytics solution** using SQL to perform **Exploratory Data Analysis (EDA)**, **Advanced Trend & KPI Analysis**, and **Insightful Reporting** on a sales dataset.
+This project delivers a full-stack **data analytics solution** using SQL to perform **Advanced Trend & KPI Analysis**, and **Insightful Reporting** on a sales dataset.
 
 It is structured for modular development, enabling seamless database initialization, analytical processing, and report generation using clean SQL workflows.
 
@@ -29,24 +29,6 @@ Run `init_database.sql` to:
 ```sql
 scripts/init_database.sql
 ```
----
-### 🔍 Exploratory Data Analysis (EDA)
-
-Run: `scripts/exploratory_data_analysis.sql`
-This file aggregates all base-level analysis scripts under one file.
-
-Key Modules:
-
-- date_analysis.sql – Order timelines and customer birthdate ranges
-
-- dimension_analysis.sql – Countries, categories, product groups
-
-- magnitude_analysis.sql – Total sales, quantities, customer counts
-
-- measure_analysis.sql – Averages, percentages, price metrics
-
-- ranking_analysis.sql – Top-performing customers & products
-
 ---
 
 ### 📈 Advanced Analytics
@@ -95,50 +77,3 @@ Metrics & KPIs:
 - Avg. selling price, avg. order revenue, monthly revenue
 
 ---
-
-## 📊 Business Insights Enabled
-
-✔️ Track customer and product performance over time  
-✔️ Identify high-value customers and products  
-✔️ Segment customers by behavior and value  
-✔️ Detect seasonal sales patterns  
-✔️ Benchmark performance against historical trends
-
----
-
-## Repository Structure
-```
-.sql-data-analytics-project
-├── dataset/
-│   ├── gold.dim_customers.csv
-│   ├── gold.dim_products.csv
-│   └── gold.fact_sales.csv
-│
-├── docs/
-│   └── placeholder/
-│
-├── scripts/
-│   ├── advanced-data-analytics/
-│   │   ├── change_over_time_analysis.sql
-│   │   ├── cumulative_analysis.sql
-│   │   ├── data_segmentation.sql
-│   │   ├── part_to_whole_analysis.sql
-│   │   └── perfomance_analysis.sql
-│   │
-│   ├── exploratory-data-analysis/
-│   │   ├── date_analysis.sql
-│   │   ├── dimension_analysis.sql
-│   │   ├── magnitude_analysis.sql
-│   │   ├── measure_analysis.sql
-│   │   └── ranking_analysis.sql
-│   │
-│   ├── reports/
-│   │   ├── customer_report.sql
-│   │   └── product_report.sql
-│   │
-│   ├── init_database.sql
-│   ├── exploratory_data_analysis.sql
-│   └── advanced_data_analytics.sql
-│
-└── README.md
-```
