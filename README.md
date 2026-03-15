@@ -32,8 +32,6 @@ scripts/init_database.sql
 ---
 
 ### 📈 Advanced Analytics
-Run: `scripts/advanced_data_analytics.sql`
-Includes in-depth business performance breakdowns.
 
 Key Modules:
 
