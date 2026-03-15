@@ -16,20 +16,6 @@ The dataset is structured into a **star schema**:
 
 ---
 
-## ⚙️ Setup Instructions
-
-> Ensure you are running these in **SQL Server** or a compatible T-SQL engine.
-
-### Initialize Database
-
-Run `init_database.sql` to:
-- Create the `DataAnalytics` database and `gold` schema
-- Define and populate tables (`dim_customers`, `dim_products`, `fact_sales`) from a `DataWarehouse` source
-
-```sql
-scripts/init_database.sql
-```
----
 
 ### 📈 Advanced Analytics
 
